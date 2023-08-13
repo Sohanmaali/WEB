@@ -1,0 +1,43 @@
+body {
+  background-color: burlywood;
+}
+*{
+  box-sizing: border-box;
+}
+.head {
+  background-color: beige;
+}
+.greading {
+  font-size: xx-large;
+}
+#sohan{
+    width: 100px;
+    margin-left: 80%;
+}
+section
+{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+    .about {
+  border: 3px solid rgb(225, 54, 54);
+  width: 25%;
+  text-align: center;
+  border-top-right-radius: 20px;
+}
+.name {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  /* border: 3px solid green; */
+  width: 25%;
+  height: auto;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.footer {
+  background-color: rgb(190, 186, 181);
+}

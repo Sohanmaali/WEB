@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+      }
+      .abc{
+        border: 2px solid black;
+        text-align: center;
+        background-color: yellow;
+      }
+      #pannel1 {
+        float: left;
+      }
+      #pannel2 {
+        float: left;
+        position: relative;
+        top: 72px;
+      }
+      #pannel3 {
+        float: left;
+        position: relative;
+        top: 212px;
+      }
+      #pannel4 {
+        float: left;
+        position: relative;
+        top: 212px;
+      }
+      #pannel5 {
+        float: left;
+        position: relative;
+        top: 212px;
+      }
+      #pannel6 {
+        float: left;
+        position: relative;
+        top: 212px;
+      }
+      #pannel7 {
+        float: left;
+        position: relative;
+        top: 212px;
+      }
+      #pannel8 {
+        float: left;
+        position: relative;
+        top: 212px;
+      }
+      #pannel9 {
+        float: left;
+        position: relative;
+        top: 212px;
+      }
+      #pannel10 {
+        float: left;
+        position: relative;
+        top: 212px;
+      }
+      #pannel11 {
+        float: left;
+        position: relative;
+        top: 212px;
+      }
+      #pannel12 {
+        float: left;
+        position: relative;
+        top: 212px;
+      }
+      #pannel13 {
+        float: left;
+        position: relative;
+        top: 72px;
+      }
+      #pannel14 {
+        float: left;
+        position: relative;
+        top: 72px;
+      }
+      #pannel15 {
+        float: left;
+        position: relative;
+        top: 72px;
+      }
+      #pannel16 {
+        float: left;
+        position: relative;
+        top: 72px;
+      }
+      #pannel17 {
+        float: left;
+        position: relative;
+        top: 72px;
+      }
+      #pannel18 {
+        float: left;
+        position: relative;
+      }
+      .content {
+        size: 1400px;
+        width: 90%;
+      }
+      .pone-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .ptwo-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .pthree-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .pfour-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .pfour-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .pfive-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .psix-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .pseven-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .peight-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .pnine-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .pten-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .peleven-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .ptw-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .pthirteen-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .pfourteen-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .pfifteen-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .psixteen-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .pseventeen-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      .peighteen-box {
+        border: 2px solid black;
+        margin-right: 2px;
+        margin: 10px;
+        max-width: 50px;
+        max-height: fit-content;
+        max-height: 50px;
+        padding: 10px;
+        text-align: center;
+        margin-top: 2px;
+        background-color: rgb(24, 116, 116);
+      }
+      /* .tab {
+        border: 2px solid black;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="tab">
+      <h1 class="abc">The Periodic Table</h1>
+      <div id="pannel1">
+        <div class="pone-box" id="h">1 <br />H</div>
+        <div class="pone-box" id="Li">3 <br />Li</div>
+        <div class="pone-box" id="Na">11 <br />Na</div>
+        <div class="pone-box" id="K">19 <br />K</div>
+        <div class="pone-box" id="Rb">37 <br />Rb</div>
+        <div class="pone-box" id="Cs">55 <br />Cs</div>
+        <div class="pone-box" id="Fr">87 <br />Fr</div>
+      </div>
+
+      <div id="pannel2">
+        <div class="ptwo-box" id="Be">
+          4 <br />
+          Be
+        </div>
+        <div class="ptwo-box" id="Mg">12 <br />Mg</div>
+        <div class="ptwo-box" id="Ca">20 <br />Ca</div>
+        <div class="ptwo-box" id="Sr">38 <br />Sr</div>
+        <div class="ptwo-box" id="Ba">56 <br />Ba</div>
+        <div class="ptwo-box" id="Ra">88 <br />Ra</div>
+      </div>
+
+      <div id="pannel3">
+        <div class="pthree-box" id="Sc">21 <br />Sc</div>
+        <div class="pthree-box" id="Y">39 <br />Y</div>
+        <div class="pthree-box" id="57">57 <br />71 <br /></div>
+        <div class="pthree-box" id="89">89 <br />103 <br /></div>
+        <div class="pthree-box" id="La">57 <br />La</div>
+        <div class="pthree-box" id="Ac">89 <br />Ac</div>
+      </div>
+      <div id="pannel4">
+        <div class="pfour-box" id="Ti">22 <br />Ti</div>
+        <div class="pfour-box" id="Zr">40 <br />Zr</div>
+        <div class="pfour-box" id="Lu">72 <br />Lu</div>
+        <div class="pfour-box" id="Rf">104 <br />Rf</div>
+        <div class="pfour-box" id="Ce">58 <br />Ce</div>
+        <div class="pfour-box" id="Th">90 <br />Th</div>
+      </div>
+      <div id="pannel5">
+        <div class="pfive-box" id="V">23 <br />V</div>
+        <div class="pfive-box" id="Nb">41 <br />Nb</div>
+        <div class="pfive-box" id="Hf">73 <br />Hf</div>
+        <div class="pfive-box" id="Db">105 <br />Db</div>
+        <div class="pfive-box" id="Pr">59 <br />Pr</div>
+        <div class="pfive-box" id="Pa">91<br />Pa</div>
+      </div>
+
+      <div id="pannel6">
+        <div class="psix-box" id="Cr">24 <br />Cr</div>
+        <div class="psix-box" id="Mo">42 <br />Mo</div>
+        <div class="psix-box" id="Ta">74 <br />Ta</div>
+        <div class="psix-box" id="Sg">106 <br />Sg</div>
+        <div class="psix-box" id="Nd">60 <br />Nd</div>
+        <div class="psix-box" id="U">92 <br />U</div>
+      </div>
+
+      <div id="pannel7">
+        <div class="pseven-box" id="Mn">25 <br />Mn</div>
+        <div class="pseven-box" id="Tc">43 <br />Tc</div>
+        <div class="pseven-box" id="W">75 <br />W</div>
+        <div class="pseven-box" id="Bh">107 <br />Bh</div>
+        <div class="pseven-box" id="Pm">61 <br />Pm</div>
+        <div class="pseven-box" id="Np">93 <br />Np</div>
+      </div>
+      <div id="pannel8">
+        <div class="peight-box" id="Fe">26 <br />Fe</div>
+        <div class="peight-box" id="Ru">44 <br />Ru</div>
+        <div class="peight-box" id="Re">76 <br />Re</div>
+        <div class="peight-box" id="Hs">108 <br />Hs</div>
+        <div class="peight-box" id="Sm">62 <br />Sm</div>
+        <div class="peight-box" id="Pu">94<br />Pu</div>
+      </div>
+      <div id="pannel9">
+        <div class="pnine-box" id="Co">27 <br />Co</div>
+        <div class="pnine-box" id="Rh">45 <br />Rh</div>
+        <div class="pnine-box" id="Ir">77 <br />Ir</div>
+        <div class="pnine-box" id="Mt">109 <br />Mt</div>
+        <div class="pnine-box" id="Eu">63 <br />Eu</div>
+        <div class="pnine-box" id="Am">95<br />Am</div>
+      </div>
+      <div id="pannel10">
+        <div class="pten-box" id="Ni">28 <br />Ni</div>
+        <div class="pten-box" id="Pd">46 <br />Pd</div>
+        <div class="pten-box" id="Pt">78 <br />Pt</div>
+        <div class="pten-box" id="Ds">110 <br />Ds</div>
+        <div class="pten-box" id="Gd">64 <br />Gd</div>
+        <div class="pten-box" id="Cm">96<br />Cm</div>
+      </div>
+
+      <div id="pannel11">
+        <div class="peleven-box" id="Cu">29 <br />Cu</div>
+        <div class="peleven-box" id="Ag">47 <br />Ag</div>
+        <div class="peleven-box" id="Au">79 <br />Au</div>
+        <div class="peleven-box" id="Rg">111 <br />Rg</div>
+        <div class="peleven-box" id="Tb">65 <br />Tb</div>
+        <div class="peleven-box" id="Bk">97<br />Bk</div>
+      </div>
+      <div id="pannel12">
+        <div class="ptw-box" id="Zn">30 <br />Zn</div>
+        <div class="ptw-box" id="Cd">48 <br />Cd</div>
+        <div class="ptw-box" id="Hg">80 <br />Hg</div>
+        <div class="ptw-box" id="Cn">112 <br />Cn</div>
+        <div class="ptw-box" id="Dy">66 <br />Dy</div>
+        <div class="ptw-box" id="Cf">98<br />Cf</div>
+      </div>
+
+      <div id="pannel13">
+        <div class="pthirteen-box">5 <br />B</div>
+        <div class="pthirteen-box">13 <br />Al</div>
+        <div class="pthirteen-box">31 <br />Ga</div>
+        <div class="pthirteen-box">49 <br />In</div>
+        <div class="pthirteen-box">81 <br />Ti</div>
+        <div class="pthirteen-box">113 <br />Nh</div>
+        <div class="pthirteen-box">67 <br />Ho</div>
+        <div class="pthirteen-box">99<br />Es</div>
+      </div>
+      <div id="pannel14">
+        <div class="pfourteen-box">6 <br />C</div>
+        <div class="pfourteen-box">14 <br />Si</div>
+        <div class="pfourteen-box">32 <br />Ge</div>
+        <div class="pfourteen-box">50 <br />Sn</div>
+        <div class="pfourteen-box">82 <br />Pb</div>
+        <div class="pfourteen-box">114 <br />Fl</div>
+        <div class="pfourteen-box">68 <br />Er</div>
+        <div class="pfourteen-box">100<br />Fm</div>
+      </div>
+      <div id="pannel15">
+        <div class="pfifteen-box">7 <br />N</div>
+        <div class="pfifteen-box">15 <br />P</div>
+        <div class="pfifteen-box">33 <br />As</div>
+        <div class="pfifteen-box">51 <br />Sb</div>
+        <div class="pfifteen-box">83 <br />Bi</div>
+        <div class="pfifteen-box">115 <br />Mc</div>
+        <div class="pfifteen-box">69 <br />Tm</div>
+        <div class="pfifteen-box">101<br />Md</div>
+      </div>
+      <div id="pannel16">
+        <div class="psixteen-box">8 <br />O</div>
+        <div class="psixteen-box">16 <br />S</div>
+        <div class="psixteen-box">34 <br />Se</div>
+        <div class="psixteen-box">52 <br />Te</div>
+        <div class="psixteen-box">84 <br />Po</div>
+        <div class="psixteen-box">116 <br />Lv</div>
+        <div class="psixteen-box">70 <br />Yb</div>
+        <div class="psixteen-box">102<br />No</div>
+      </div>
+      <div id="pannel17">
+        <div class="pseventeen-box">9 <br />F</div>
+        <div class="pseventeen-box">17 <br />CL</div>
+        <div class="pseventeen-box">35 <br />Br</div>
+        <div class="pseventeen-box">53 <br />I</div>
+        <div class="pseventeen-box">85 <br />At</div>
+        <div class="pseventeen-box">117 <br />Ts</div>
+        <div class="pseventeen-box">71 <br />Lu</div>
+        <div class="pseventeen-box">103<br />Lr</div>
+      </div>
+      <div id="pannel18">
+        <div class="peighteen-box">2 <br />He</div>
+        <div class="peighteen-box">10 <br />Ne</div>
+        <div class="peighteen-box">18 <br />Ar</div>
+        <div class="peighteen-box">36 <br />Kr</div>
+        <div class="peighteen-box">54 <br />Xe</div>
+        <div class="peighteen-box">86 <br />Rn</div>
+        <div class="peighteen-box">118 <br />Og</div>
+      </div>
+    </div>
+  </body>
+</html>

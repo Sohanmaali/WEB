@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amozon</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f1e0c2;
+      }
+      .head {
+        position: relative;
+        width: 100%;
+        height: 58px;
+        /* border: 2px solid rgb(30, 244, 2); */
+        background-color: rgb(19, 25, 33);
+      }
+      .logo img {
+        /* border: 3px solid blue; */
+        position: absolute;
+        left: 1%;
+        top: 14px;
+        width: 120px;
+        height: auto;
+      }
+      .address {
+        /* border: 3px solid blue; */
+        position: absolute;
+        left: 11%;
+        top: 8px;
+        width: 150px;
+        height: 44px;
+        color: #f3f3f3;
+        /* background-color: white; */
+        color: white;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+     
+      .option .select {
+        /* border: 3px solid blue; */
+        position: absolute;
+        left: 20.8%;
+        top: 8px;
+        width: 55px;
+        height: 44px;
+        padding-left: 5px;
+        background-color: #f3f3f3;
+
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+      .input input {
+        border: 3px solid blue;
+        position: absolute;
+        left: 23.5%;
+        top: 6.8px;
+        width: 700px;
+        height: 44.8px;
+        padding-left: 10px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+      }
+      .search i {
+        /* border: 3px solid blue; */
+        position: absolute;
+        left: 69.5%;
+        top: 8px;
+        padding-top: 15px;
+        padding-left: 18px;
+        width: 38px;
+        height: 28px;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        background-color: #febd69;
+      }
+      .contriy .flag img {
+        position: absolute;
+        left: 74.6%;
+        width: 20px;
+        height: 20px;
+        top: 18px;
+        color: white;
+      }
+      .contriy .Language {
+        position: absolute;
+        left: 76%;
+        width: 37px;
+        height: 20px;
+        top: 18px;
+        color: white;
+        background: none;
+        border: none;
+      }
+      .signin {
+        /* background-color: white; */
+        position: absolute;
+        right: 6%;
+        width: 230px;
+        height: 25px;
+        top: 12px;
+        color: white;
+      }
+      .Return {
+        /* background-color: white; */
+        position: absolute;
+        left: 88%;
+        width: 230px;
+        height: 25px;
+        top: 12px;
+        color: white;
+      }
+      .shop .troly img {
+        /* background-color: white; */
+        position: absolute;
+        right: 5.5%;
+        width: 20px;
+        height: 25px;
+        top: 18px;
+      }
+      .shop .card {
+        position: absolute;
+        right: 4%;
+        width: 20px;
+        height: 20px;
+        top: 28px;
+        color: white;
+      }
+      .head2 {
+        position: relative;
+        width: 100%;
+        height: 40px;
+        /* border: 2px solid rgb(30, 244, 2); */
+        background-color: #232f3e;
+      }
+      .All {
+        position: absolute;
+        top: 8px;
+        left: 2.8%;
+        color: white;
+      }
+      .tv {
+        position: absolute;
+        top: 8px;
+        left: 5%;
+        color: white;
+      }
+      .sell {
+        position: absolute;
+        top: 8px;
+        left: 12.7%;
+        color: white;
+      }
+      .selle {
+        position: absolute;
+        top: 8px;
+        left: 16%;
+        color: white;
+      }
+      .today {
+        position: absolute;
+        top: 8px;
+        left: 21.6%;
+        color: white;
+      }
+      .Mobile {
+        position: absolute;
+        top: 8px;
+        left: 28.4%;
+        color: white;
+      }
+      .newReleases {
+        position: absolute;
+        top: 8px;
+        left: 33%;
+        color: white;
+      }
+      .custser {
+        position: absolute;
+        top: 8px;
+        left: 39.5%;
+        color: white;
+      }
+      .Prime {
+        position: absolute;
+        top: 8px;
+        left: 48%;
+        color: white;
+      }
+      .Electronics {
+        position: absolute;
+        top: 8px;
+        left: 52.5%;
+        color: white;
+      }
+      .Kitchen {
+        position: absolute;
+        top: 8px;
+        left: 58%;
+        color: white;
+      }
+      .Giftidea {
+        position: absolute;
+        top: 8px;
+        left: 66%;
+        color: white;
+      }
+      .Event span img {
+        position: absolute;
+        top: 99px;
+        width: 100%;
+        /* height: 50%; */
+        /* border: 2px solid blue; */
+      }
+      .style {
+        position: absolute;
+        border: 1 solid black;
+        top: 50%;
+        width: 23%;
+        height: 48%;
+        left: 23px;
+        background-color: white;
+      }
+      .style span {
+        position: absolute;
+        padding-top: 20px;
+        left: 40px;
+        font-size: larger;
+        font-weight: 800;
+      }
+      .style .M1 {
+        position: absolute;
+        /* border: 2px solid black; */
+        padding-top: 50px;
+        width: 130px;
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 500px;
+        /* top: 75%; */
+      }
+      .style .M2 {
+        position: absolute;
+        width: 130px;
+        height: 100px;
+        padding-top: 50px;
+        padding-left: 70px;
+        /* border: 2px solid black; */
+        margin-left: 120px;
+        margin-bottom: 600px;
+      }
+      .style .M3 {
+        position: absolute;
+        /* border: 2px solid black; */
+        padding-top: 200px;
+        width: 130px;
+        height: 100px;
+        padding-left: 20px;
+        padding-right: 500px;
+        /* top: 75%; */
+      }
+      .style .M4 {
+        position: absolute;
+        width: 130px;
+        height: 100px;
+        padding-top: 200px;
+        padding-left: 70px;
+        /* border: 2px solid black; */
+        margin-left: 120px;
+        margin-bottom: 600px;
+      }
+      .style .m11 {
+        position: absolute;
+        padding-top: 150px;
+        /* border: 2px solid rgb(151, 11, 233); */
+        margin-left: -20px;
+        font-weight: 100;
+        font-size: 15px;
+      }
+      .style .m12 {
+        position: absolute;
+        padding-top: 150px;
+        /* border: 2px solid rgb(151, 11, 233); */
+        margin-left: 150px;
+        font-weight: 100;
+        font-size: 15px;
+      }
+      .style .M13 {
+        position: absolute;
+        padding-top: 300px;
+        /* border: 2px solid rgb(151, 11, 233); */
+        margin-left: -20px;
+        font-weight: 100;
+        font-size: 15px;
+      }
+      .style .M14 {
+        position: absolute;
+        padding-top: 300px;
+        /* border: 2px solid rgb(151, 11, 233); */
+        margin-left: 150px;
+        font-weight: 100;
+        font-size: 15px;
+      }
+      .style1 {
+        position: absolute;
+        border: 1 solid black;
+        top: 50%;
+        width: 23%;
+        height: 48%;
+        left: 27%;
+        background-color: white;
+      }
+       .style1 span {
+        position: absolute;
+        padding-top: 20px;
+        left: 40px;
+        /* border: 2px solid rgb(151, 11, 233); */
+        font-size: larger;
+        font-weight: 800;
+      }
+       .style1 .M5 {
+        position: absolute;
+        /* border: 2px solid black; */
+        padding-top: 50px;
+        width: 300px;
+        height: 270px;
+        padding-left: 25px;
+        padding-right: 500px;
+        /* top: 75%; */
+      }
+
+       .style {
+        position: absolute;
+        border: 1 solid black;
+        top: 50%;
+        width: 23%;
+        height: 48%;
+        left: 23px;
+        background-color: white;
+      }
+      .style span {
+        position: absolute;
+        padding-top: 20px;
+        left: 40px;
+        font-size: larger;
+        font-weight: 800;
+      }
+      .style2 {
+        position: absolute;
+        border: 1 solid black;
+        top: 50%;
+        width: 23%;
+        height: 48%;
+        left:52%;
+        background-color: white;
+      }
+      .style2 span {
+        position: absolute;
+        padding-top: 20px;
+        left: 40px;
+        font-size: larger;
+        font-weight: 800;
+      }
+        .style2 .M51 {
+        position: absolute;
+        /* border: 2px solid black; */
+        padding-top: 50px;
+        width: 300px;
+        height: 270px;
+        padding-left: 25px;
+        padding-right: 500px;
+        /* top: 75%; */
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="head">
+      <div class="logo">
+        <img src="Amazon.png" alt="Amazon Img" />
+      </div>
+      <div class="address">
+        <span><small>Hello</small><br /><b>Select your address</b></span>
+      </div>
+      <div class="option">
+        <select class="select">
+          <option value="all">All</option>
+          <option value="all">Alexa Skills</option>
+          <option value="all">Amazon Devices</option>
+          <option value="all">Amazon Fashion</option>
+        </select>
+        <div class="input">
+          <input type="search" placeholder="Search Amazon.in" />
+        </div>
+        <span class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </span>
+      </div>
+      <div class="contriy">
+        <span class="flag">
+          <img src="Flag_of_India.png" alt="India flg" />
+        </span>
+        <select class="Language">
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option>
+        </select>
+      </div>
+      <span class="signin">
+        <small>Hello,sign in </small> <br />
+        <b>Account & Lists </b></span
+      >
+      <span class="Return"><small>Returns</small><br /><b>& Order</b></span>
+      <div class="shop">
+        <span class="troly">
+          <img src="troly.png" alt="" />
+        </span>
+        <span class="card">Cart</span>
+      </div>
+    </header>
+    <header class="head2">
+      <span class="All">All</span>
+      <span class="tv">Amazon miniTv</span>
+      <span class="sell">Sell</span>
+      <span class="selle">Best Sellers</span>
+      <span class="today">Today's Deals</span>
+      <span class="Mobile">Mobiles</span>
+      <span class="newReleases">New Releases</span>
+      <span class="custser">Customer Service</span>
+      <span class="Prime">Prime</span>
+      <span class="Electronics">Electronics</span>
+      <span class="Kitchen">Home & Kitchen</span>
+      <span class="Giftidea">Gift Ideas</span>
+    </header>
+    <div class="Event">
+      <span><img src="amozon1234.jpg" alt="Event img" /></span>
+    </div>
+    <div class="style">
+      <span>Up to 60% off | Style for men</span>
+      <img class="M1" src="M1.jpg" alt="" />
+      <span class="m11">Clothing</span>
+      <img class="M2" src="M2.jpg" alt="" />
+      <span class="m12">Footwear</span>
+      <img class="M3" src="M3.jpg" alt="" />
+      <span class="M13">Watches</span>
+      <img class="M4" src="M4.jpg" alt="" />
+      <span class="M14">Bags & luggage</span>
+    </div>
+    <div class="style1">
+      <span>Up to 70% off | Clearance store</span>
+      <img class="M5" src="M5.jpg" alt="" />
+    </div>
+    <div class="style2">
+      <span>Up to 70% off | Clearance store</span>
+      <img class="M51" src="M5.jpg" alt="" />
+    </div>
+  </body>
+</html>

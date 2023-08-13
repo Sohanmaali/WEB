@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail</title>
+    <style>
+      *body {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        position: relative;
+        width: 35%;
+        height: 650px;
+        margin: 35px;
+        left: 35%;
+        border: 2px solid black;
+      }
+      .box div img {
+        position: absolute;
+        /* border: 2px solid black; */
+        width: 25%;
+        height: 15%;
+        left: 190px;
+        top: 0px;
+      }
+      .box .Account {
+        position: absolute;
+        left: 150px;
+        top: 10%;
+      }
+      .box div input {
+        position: absolute;
+        padding: 5px;
+        width: 75%;
+        height: 40px;
+        left: 9%;
+      }
+     .box .msg span {
+      /* border: 2px solid black; */
+       position: absolute;
+        left: 180px;
+        top: 19%;
+      }
+      .first-name {
+        top: 28%;
+      }
+      .Last-name {
+        top: 42%;
+      }
+      .submit {
+        top: 80%;
+        left: 70% !important;
+        width: 20% !important;
+      }
+      .submit
+      {
+         position: absolute;
+        left: 180px;
+        top: 70%;
+        height: 30px;
+        width: 25px;
+        background-color: rgb(133, 6, 244);
+        cursor: pointer;
+        border: 1px solid rgb(133,6,244);
+        border-radius: 5px;
+      }
+      .submit:hover{
+        background-color: rgb(234, 234, 240);
+
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="Account"><h3>Creat your google Account</h3></div>
+      <div>
+        <img class="googleimg" src="google.png" alt="google img" />
+      </div>
+
+      <div class="msg"><span>Enter Your Name</span></div>
+
+      <div>
+        <input
+          class="first-name"
+          type="text"
+          placeholder="Enter your First Name"
+          required
+        />
+      </div>
+
+      <div>
+        <input
+          class="Last-name"
+          type="text"
+          placeholder="Enter your Last Name"
+          required
+        />
+      </div>
+      <div>
+        <button class="submit">Next</button>
+      </div>
+    </div>
+  </body>
+</html>

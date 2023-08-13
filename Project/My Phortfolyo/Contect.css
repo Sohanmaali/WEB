@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  height: 500%;
+  background-color: black;
+  position: relative;
+}
+/* --------------- First row start --------------  */
+.first-row {
+  height: 70px;
+  display: flex;
+  background-color: grey;
+  align-items: center;
+  position: relative;
+}
+.first-row div:nth-child(1) span a {
+  color: white;
+  width: 50px;
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.first-row div:nth-child(1) span a:hover {
+  color: yellow;
+}
+.first-row div:nth-child(2) {
+  width: 400px;
+  margin-left: 70%;
+  position: absolute;
+}
+.first-row div:nth-child(2) span a {
+  color: white;
+  font-size: 18px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+.first-row div:nth-child(2) span a:hover {
+  color: yellow;
+  /* border: 2px solid yellow; */
+}
+/* --------------- second row start --------------  */
+.second-row {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+.second-row div:nth-child(1) {
+  /* border: 1px solid white; */
+  height: 100px;
+  width: 100%;
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 40px; */
+}
+/* -------------------- Third row -------------------- */
+.third-row {
+  height: 550px;
+  background-color: black;
+  display: flex;
+}
+.third-row .icons {
+  border: 1px solid white;
+  height: 510px;
+  width: 100%;
+  /* position: relative; */
+
+  padding-left: 200px;
+}
+.icons div:nth-child(1) {
+  position: absolute;
+  /* border: 1px solid white; */
+  width: 350px;
+  height: 200px;
+  padding: 45px;
+  position: relative;
+}
+.icons div:nth-child(1) span:nth-child(1) {
+  font-size: 50px;
+  color: yellow;
+  display: flex;
+}
+.icons div:nth-child(1) span:nth-child(2) {
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  font-size: 30px;
+  color: yellow;
+  display: flex;
+  justify-content: center;
+
+  padding-left: 10px;
+}
+
+.icons div:nth-child(2) {
+  position: absolute;
+  /* border: 1px solid white; */
+  width: 350px;
+  height: 200px;
+  padding: 45px;
+  position: relative;
+}
+.icons div:nth-child(2) span:nth-child(1) {
+  font-size: 50px;
+  color: yellow;
+  display: flex;
+}
+.icons div:nth-child(2) span:nth-child(2) {
+  border: 1px solid red;
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  font-size: 30px;
+  color: yellow;
+  display: flex;
+  /* justify-content: center; */
+  padding-left: 100px;
+}
+.icons div:nth-child(3) {
+  position: absolute;
+  border: 1px solid white;
+  width: 350px;
+  float: right;
+  height: 200px;
+  /* padding: 45px; */
+  /* position: relative; */
+}
+.icons div:nth-child(3) span:nth-child(1) {
+  font-size: 50px;
+  color: yellow;
+  /* position: absolute; */
+  float: right;
+  display: flex;
+}
+.icons div:nth-child(3) span:nth-child(2) {
+  border: 1px solid red;
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  font-size: 30px;
+  color: yellow;
+  display: flex;
+  /* justify-content: center; */
+  padding-left: 100px;
+}

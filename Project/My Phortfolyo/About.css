@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+    background-color: navajowhite;
+}
+.first-row {
+  height: 70px;
+  display: flex;
+  background-color: grey;
+  align-items: center;
+  position: relative;
+}
+.first-row div:nth-child(1) span a {
+  color: white;
+  width: 50px;
+  margin-left: 50px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.first-row div:nth-child(1) span a:hover{
+    color: yellow;
+} 
+.first-row div:nth-child(2) {
+  width: 400px;
+  margin-left: 70%;
+  position: absolute;
+}
+.first-row div:nth-child(2) span a {
+  color: white;
+  font-size: 18px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+.first-row div:nth-child(2) span a:hover{
+    color: yellow;
+} 
+
+/* --------------First row end------------------ */
+/* --------------Second row Start------------------ */
+.first {
+  /* border: 1px solid; */
+  height: 700px;
+  position: relative;
+}
+.first img {
+  width: 200px;
+  margin-top: 220px;
+  border-radius: 200px;
+  margin-left: 10%;
+}
+.first div:nth-child(2) {
+  /* border: 1px solid; */
+  position: absolute;
+  top: 10%;
+  left: 18%;
+  font-size: 25px;
+  padding-left: 10px;
+  width: 550px;
+  height: 110px;
+  margin-left: 15%;
+  font-size: 45px;
+  font-weight: 700;
+}
+.first div:nth-child(3) {
+  /* border: 1px solid; */
+  position: absolute;
+  top: 25%;
+  left: 18%;
+  font-size: 25px;
+  padding-left: 10px;
+  width: 950px;
+  height: 60px;
+  margin-left: 15%;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.first div:nth-child(4) ul:nth-child(1) {
+  /* border: 1px solid; */
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  font-size: 25px;
+  padding-left: 10px;
+  width: 250px;
+  padding: 10px;
+  height: 200px;
+  margin-left: 15%;
+  font-size: 20px;
+  font-weight: 900;
+  list-style: none;
+}
+.first div:nth-child(4) ul:nth-child(1) li {
+  padding: 10px;
+}
+
+.first div:nth-child(4) ul:nth-child(2) {
+  /* border: 1px solid;  */
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 25px;
+  padding-left: 10px;
+  width: 500px;
+  padding: 10px;
+  height: 200px;
+  margin-left: 15%;
+  font-size: 20px;
+  font-weight: 900;
+  list-style: none;
+}
+.first div:nth-child(4) ul:nth-child(2) li {
+  padding: 10px;
+}
