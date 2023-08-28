@@ -6,53 +6,55 @@
     <title>Document</title>
   </head>
   <body>
-    <form>
-      <h1>Add Product Form</h1>
-      <table>
-        <tr>
-          <td>Product name</td>
-          <td><input type="text" /></td>
-        </tr>
-        <tr>
-          <td>Product Quantity</td>
-          <td><input type="number" /></td>
-        </tr>
-        <tr>
-          <td>Product Price <br />(per place)</td>
-          <td><input type="number" /></td>
-        </tr>
-        <tr>
-          <td>Mode of payment</td>
-          <td>
-            <select>
-              <option>Select</option>
-              <option>UPI</option>
-              <option>Net Banking</option>
-              <option>COD</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td>type</td>
-          <td>
-            <input type="checkbox" />Import <input type="checkbox" />Export
-          </td>
-        </tr>
-        <tr>
-          <td>Weight</td>
-          <td>
-            <input type="checkbox" /><=50kg <input type="checkbox" />>50kg
-          </td>
-        </tr>
-        <tr align="right">
-          <td></td>
-          <td>
-            <button type="submit">Add Product</button>
-            <button type="reset">clear</button>
-          </td>
-          <td></td>
-        </tr>
-      </table>
-    </form>
+    <fieldset style="width: 300px">
+      <form>
+        <center><h1>Add Product Form</h1></center>
+        <table>
+          <tr height="50px">
+            <td>Product name</td>
+            <td><input type="text" required /></td>
+          </tr>
+          <tr height="50px">
+            <td>Product Quantity</td>
+            <td><input type="number" required /></td>
+          </tr>
+          <tr height="50px">
+            <td>Product Price <br />(per place)</td>
+            <td><input type="number" required/></td>
+          </tr>
+          <tr height="50px">
+            <td>Mode of payment</td>
+            <td>
+              <select required>
+                <option>Select</option>
+                <option>UPI</option>
+                <option>Net Banking</option>
+                <option>COD</option>
+              </select>
+            </td>
+          </tr>
+          <tr height="50px">
+            <td>type</td>
+            <td>
+              <input type="checkbox" />Import <input type="checkbox" />Export
+            </td>
+          </tr>
+          <tr height="50px">
+            <td></td>
+            <td>
+              <input type="checkbox" /><=50kg <input type="checkbox" />>50kg
+            </td>
+          </tr>
+          <tr align="right" height="50px">
+            <td></td>
+            <td>
+              <button type="submit">Add Product</button>
+              <button type="reset">clear</button>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
   </body>
 </html>
