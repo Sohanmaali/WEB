@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+#logo {
+  padding: 20px;
+}
+#home {
+  background-color: blue;
+  border-radius: 25px;
+}
+#nav {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  height: 50px;
+  background-color: #eae6f5;
+}
+#nav ul {
+  list-style: none;
+  padding: 10px;
+}
+#nav ul li {
+  display: inline;
+}
+#nav ul li a {
+  color: black;
+  font-family: candara;
+  font-size: 20px;
+  margin-left: 120px;
+  text-decoration: none;
+}
+#nav ul li a:hover {
+  color: black;
+}
+#services_page {
+  height: 500px;
+  background-color: #eae6f5;
+  width: 100%;
+  position: relative;
+}
+#Electrical_text {
+  /* color: yellow; */
+  position: absolute;
+  width: 220px;
+  /* background-color: blue; */
+  margin-top: 100px;
+  margin-left: 100px;
+}
+#Electrical_img {
+  border-radius: 220px;
+  float: right;
+  border: 5px solid blue;
+  height: 400px;
+  margin-right: 200px;
+  margin-top: 130px;
+}
+Electrical_img :hover {
+  border-radius: 120px;
+}
+#Electrical_text_2 {
+  position: absolute;
+  /* color: red; */
+  margin-top: 240px;
+  width: 400px;
+  margin-left: 70px;
+}
+#contact_div {
+  width: 200px;
+  background-color: blue;
+  border-radius: 50px;
+  position: relative;
+  height: 45px;
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+}
+#contact_btn {
+  /* color: red; */
+  width: 400px;
+  margin-left: 20px;
+  align-items: center;
+  position: absolute;
+}
+#contact_btn a {
+  text-decoration: none;
+  color: black;
+}
+#ouer_services {
+  height: 600px;
+  /* background-color: blue; */
+
+  /* position: relative; */
+  width: 100%;
+}
+#ouer_services_1 {
+  height: 350px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-around;
+}
+#ouer_services_img_1,
+#ouer_services_img_3,
+#ouer_services_img_2 {
+  height: 280px;
+  margin-top: 30px;
+  background-color: whitesmoke;
+  width: 320px;
+  position: relative;
+}
+
+#ouer_services_img_2,
+#ouer_services_img_1,
+#ouer_services_img_3,
+img {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+#ouer_services_img_2,
+#ouer_services_img_1,
+#ouer_services_img_3,
+h3 {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+#ouer_services_img_2,
+#ouer_services_img_1,
+#ouer_services_img_3,
+span {
+  padding: 20px;
+}
+#ouer_services_2 {
+  height: 350px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-around;
+}
+#ouer_services_img_4,
+#ouer_services_img_5,
+#ouer_services_img_6 {
+  height: 280px;
+  margin-top: 30px;
+  background-color: whitesmoke;
+  width: 320px;
+  position: relative;
+}
+
+#ouer_services_img_4,
+#ouer_services_img_5,
+#ouer_services_img_6,
+img {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+#ouer_services_img_4,
+#ouer_services_img_5,
+#ouer_services_img_6,
+h3 {
+  margin-left: 80px;
+  margin-top: 20px;
+}
+#ouer_services_img_4,
+#ouer_services_img_5,
+#ouer_services_img_6,
+span {
+  padding: 20px;
+}
+
+#read_more {
+  width: 200px;
+  background-color: blue;
+  border-radius: 50px;
+  margin-top: 150px;
+  margin-left: 670px;
+  height: 45px;
+}
+#read_btn {
+  width: 400px;
+  margin-left: 25px;
+}
+#read_btn a {
+  text-decoration: none;
+  color: black;
+}
