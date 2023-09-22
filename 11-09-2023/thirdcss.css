@@ -138,7 +138,6 @@ span {
 }
 #ouer_services_2 {
   height: 350px;
-  /* background-color: yellow; */
   display: flex;
   justify-content: space-around;
 }
@@ -188,4 +187,152 @@ span {
 #read_btn a {
   text-decoration: none;
   color: black;
+}
+#about_page {
+  height: 700px;
+  background-color: #f3f0f6;
+  position: relative;
+}
+#about_text h1 {
+  margin-left: 100px;
+}
+#about_img_div {
+  margin-right: 500px;
+}
+#about_img {
+  position: absolute;
+  height: 350px;
+  border-radius: 200px;
+  border: 5px solid blue;
+  margin-left: 600px;
+}
+#about_img_div_1 {
+  float: right;
+  margin-right: 100px;
+}
+#about_img_1 {
+  /* position: absolute; */
+  height: 250px;
+  border-radius: 200px;
+  border: 5px solid blue;
+  margin-right: 200px;
+  margin-top: 300px;
+}
+#about_div {
+  position: absolute;
+  width: 450px;
+  margin-left: 100px;
+  /* border: 1px solid; */
+}
+#about_text_2 {
+  height: auto;
+  color: black;
+  font-size: 20px;
+}
+#blog_div {
+  /* position: relative; */
+  height: 600px;
+  width: 90%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+#first {
+  position: relative;
+  height: 550px;
+  width: 600px;
+  background-color: white;
+  margin: auto;
+  border: 2px solid;
+}
+#second {
+  border: 2px solid;
+  margin: auto;
+  height: 550px;
+  width: 600px;
+  background-color: white;
+}
+#blog_img {
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  margin: auto;
+}
+#blog_img_1 {
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  background-color: white;
+  margin: auto;
+}
+#first h3 {
+  position: absolute;
+  margin-top: 430px;
+  margin-left: 150px;
+}
+#first span {
+  position: absolute;
+  width: 400px;
+  margin-top: 450px;
+  margin-left: 40px;
+}
+#second h3 {
+  position: absolute;
+  margin-top: 430px;
+  margin-left: 150px;
+}
+#second span {
+  position: absolute;
+  width: 400px;
+  margin-top: 450px;
+  margin-left: 40px;
+}
+#contact {
+  height: 700px;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-around;
+}
+#contact h1 {
+  /* border: 1px solid; */
+  height: 50px;
+  /* width: 120px; */
+  /* background-color: blue; */
+  margin-left: 100px;
+  margin-top: 30px;
+}
+#form_1 {
+  margin-top: 100px;
+  border: 1px solid;
+  height: auto;
+}
+#form_1 form {
+  padding-top: 10px;
+}
+#name {
+  height: 50px;
+  width: 500px;
+  font-size: 25px;
+}
+#email {
+  height: 50px;
+  width: 500px;
+  font-size: 25px;
+}
+#phone {
+  height: 50px;
+  width: 500px;
+  font-size: 25px;
+}
+#message {
+  height: 150px;
+  width: 500px;
+  font-size: 25px;
+}
+#form_1 button {
+  height: 50px;
+  width: 100px;
+  margin-top: 70px;
 }
