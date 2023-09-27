@@ -419,7 +419,7 @@ iframe {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: yellow;
+    /* background-color: yellow; */
     align-items: center;
   }
   #ouer_services_1,

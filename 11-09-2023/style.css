@@ -10,6 +10,9 @@
 #logo {
   padding: 20px;
 }
+.right ul {
+  display: none;
+}
 #nav {
   z-index: 1;
   position: sticky;
@@ -411,19 +414,46 @@ a,
   #logo {
     padding: 15px;
   }
+  .right {
+    background-image: url(img/Hamburger_icon1.png);
+    width: 30px;
+    height: 30px;
+    float: right;
+    /* background-color: red; */
+  }
+  .right ul {
+    display: none;
+  }
+  .right:hover ul {
+    z-index: 1;
+    display: block;
+    margin-left: 220px;
+    width:120vw;
+    height: 30vh;
+    list-style: none;
+    position: absolute;
+    top: 80px;
+    left: 5px;
+    line-height: 37px;
+ }
   #nav {
     z-index: 1;
-    position: sticky;
+    position: stick;
     top: 0;
     height: 30px;
-    background-color: papayawhip;
+    background-color: blue;
+    display: none;
   }
   #nav ul {
     list-style: none;
     padding: 5px;
   }
-  #nav ul li {
-    display: inline;
+  .right ul {
+    display: block;
+    display: none;
+    margin-left: 21px;
+    padding: 5px;
+    background-color: papayawhip;
   }
   #nav ul li a {
     color: black;
@@ -663,7 +693,7 @@ a,
   #contact_2 {
     height: 300px;
     width: 90%;
-    background-color: green;
+    background-color: lavender;
   }
   #contact_1 h1 {
     /* position: absolute; */
