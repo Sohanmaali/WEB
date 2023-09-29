@@ -10,12 +10,15 @@
 #logo {
   padding: 20px;
 }
+
+
+
 #nav {
   z-index: 1;
   position: sticky;
   top: 0;
   height: 50px;
-  background-color: green;
+  background-color: grey;
 }
 #nav ul {
   list-style: none;
@@ -25,7 +28,7 @@
   display: inline;
 }
 #nav ul li a {
-  color: black;
+  color: rgb(248, 246, 246);
   font-family: candara;
   font-size: 20px;
   margin-left: 120px;
@@ -324,7 +327,7 @@
     position: sticky;
     top: 0;
     height: 50px;
-    background-color: green;
+    background-color: grey;
   }
   #nav ul {
     list-style: none;
@@ -334,7 +337,7 @@
     display: inline;
   }
   #nav ul li a {
-    color: black;
+    color: white;
     font-family: candara;
     font-size: 10px;
     margin-left: 10px;
