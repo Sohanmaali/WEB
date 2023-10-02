@@ -17,7 +17,7 @@
   z-index: 1;
   position: sticky;
   top: 0;
-  height: 50px;
+  height:50px;
   background-color: papayawhip;
 }
 #nav ul {
@@ -35,7 +35,7 @@
   text-decoration: none;
 }
 #nav ul li a:hover {
-  color: black;
+  color: white;
 }
 #your_need {
   height: 450px;
@@ -170,6 +170,7 @@
   position: absolute;
   top: 50px;
   left: 50px;
+  font-size: 20px;
 }
 
 #latest_blog {
@@ -816,14 +817,7 @@ a,
     top: 100px;
   }
 }
-
-/* //
-//
-//
-//
-// */
-
-/* Extra small devices (phones, 600px and down) */
+/*
 
 @media only screen and (max-width: 600px) {
   * {
@@ -1242,7 +1236,7 @@ a,
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and up) 
 @media only screen and (min-width: 600px) {
   * {
     margin: 0;
@@ -1276,14 +1270,14 @@ a,
     top: 80px;
     left: 5px;
     line-height: 37px;
-  } */
+  } 
   #nav {
     z-index: 1;
     position: stick;
-    /* top: 0; */
+    /* top: 0; 
     height: 30px;
     background-color: papayawhip;
-    /* display: none; */
+    /* display: none; 
   }
   #nav ul {
     list-style: none;
@@ -1345,22 +1339,22 @@ a,
     height: 150px;
   }
 
-  /* ----------------- */
+  /* ----------------- 
   #third_row {
     height: 450px;
     width: 90%;
     margin: auto;
     display: flex;
-    /* flex-direction: column; */
+    /* flex-direction: column; 
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: green; */
+    /* background-color: green; 
   }
   #third_row_1 {
     height: 650px;
     width: 95%;
     display: flex;
-    /* flex-direction: column; */
+    /* flex-direction: column; 
     justify-content: space-evenly;
     align-items: center;
   }
@@ -1377,7 +1371,7 @@ a,
     height: 650px;
     width: 95%;
     display: flex;
-    /* flex-direction: column; */
+    /* flex-direction: column; 
     justify-content: space-evenly;
     align-items: center;
   }
@@ -1421,7 +1415,7 @@ a,
     left: 5px;
     width: 85%;
   }
-  /* --------------------- */
+  /* --------------------- 
   #about {
     width: 90%;
     height: 40vh;
@@ -1434,7 +1428,7 @@ a,
   }
   #about_blog_img {
     height: 200px;
-    /* background-color: red; */
+    /* background-color: red; 
   }
   #about_1,
   #about_text {
@@ -1446,17 +1440,17 @@ a,
     position: absolute;
     top: 30px;
     font-size: 25px;
-    /* background-color: red; */
+    /* background-color: red; 
   }
   #about_text span {
-    /* background-color: red; */
-    /* border: 1px solid; */
+    /* background-color: red; 
+    /* border: 1px solid; 
     position: absolute;
     top: 70px;
     left: 15px;
     font-size: 18px;
   }
-  /* -------------------- */
+  /* -------------------- 
   #latest_blog {
     height: 1300px;
     margin: auto;
@@ -1679,14 +1673,14 @@ a,
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and up) 
 @media only screen and (min-width: 768px) {
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices (laptops/desktops, 992px and up) 
 @media only screen and (min-width: 992px) {
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) 
 @media only screen and (min-width: 1200px) {
-}
+}*/
