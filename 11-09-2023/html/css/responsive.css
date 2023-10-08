@@ -126,14 +126,8 @@
     .mean-container .mean-nav ul li a.mean-expand {
         top: 0;
     }
-.banner_main { width: 100%; float: left; }
-.consectetur_text { margin-left: 0px; }
-.client_taital { font-size: 14px; }
-.send_text a { width: 40%; }
-.follow_text { width: 100%; }
-.news_text { width: 100%; }
-.email_bt { width: 63%; } 
-.subscribe_bt { width: 37%; }
+
+
 
 
 
@@ -152,26 +146,23 @@ right: -221px;
 width: 30%;
    }
 
-.login_text { width: 10%; }
-.logo { width: 20%; }
-.best_taital { font-size: 60px; }
-.box_main { width: 65%; }
-.there_text { width: 100%; font-size: 14px; }
-.bt_main { width: 20%; }
-.job_section { width: 100%; float: left; } 
-.jobs_text { font-size: 33px; }
-.dummy_text { font-size: 14px; }
-.apply_bt { margin-top: 0px; width: 40%; }
-.job_section_2 { width: 100%; float: left;}
-.lorem_text { font-size: 14px; }
-.email_bt_2 { font-size: 14px; padding-right: 215px; }
-.subscribe_bt_2 { width: 20%; font-size: 14px; }
-.copyright_text {  font-size: 14px; }
-.cookies_text { font-size: 14px; }
-.companies_text { width: 50%; }
-.column { margin: 0px; }
-.column div { width: 22%; }
-.jobs_main { font-size: 24px; }
+.logo { width: 25%; }
+.navbar-expand-lg .navbar-nav .nav-link { padding-right: 10px; padding-left: 10px; }
+#my_slider a.carousel-control-prev { left: 405px; }
+#my_slider a.carousel-control-next { left: 490px;}
+.ram { top: -70px;}
+.Students_section { padding-top: 10px; } 
+.image_2 { height: 290px; margin-top: 90px; }
+.hiphop_text { width: 20%; }
+.border_0 { width: 460px;}
+.shortcode_left { margin-top: 0px; }
+#main_slider a.carousel-control-prev { left: -20px; top: 62%; }
+#main_slider a.carousel-control-next { right: -20px; top: 62%; }
+.hiphop_text_1 { font-size: 16px;} 
+
+.banner_section::after {
+    transform: none; 
+}
 
 
 }
@@ -218,27 +209,42 @@ width: 30%;
          padding-left: 15px;
     }
 
-.login_text { display: none; }
-.best_taital { font-size: 54px; }
-.box_main { width: 100%; }
-.there_text { width: 100%; font-size: 14px; }
-.bt_main { width: 30%; }
-.job_section { width: 100%; float: left; } 
-.jobs_text { font-size: 33px; }
-.dummy_text { font-size: 14px; }
-.apply_bt { margin-top: 0px; width: 45%; }
-.job_section_2 { width: 100%; float: left;}
-.lorem_text { font-size: 14px; }
-.email_bt_2 { font-size: 14px; padding-right: 215px; }
-.subscribe_bt_2 { width: 38%; font-size: 14px; }
-.copyright_text {  font-size: 11px; }
-.cookies_text { font-size: 11px; }
-.companies_text { width: 66%; }
-.column div { margin:0px; width: 272px;}
-.column { margin:0px;}
-.join_text { margin-bottom: 40px; }
-figure { margin-left: 74px; }
-.main { width: 100%;}
+.banner_section { min-height: 330px; }
+#my_slider a.carousel-control-prev { left: 295px; }
+#my_slider a.carousel-control-next { left: 370px;}
+.border_bg {  width: 28%; }
+.ram { top: -80px; }
+.banner_taital {padding-left: 1px;}
+.dance_text { font-size: 40px; }
+.about_bt { width: 135px;}
+.contact_bt { width: 135px;}
+.welcome_text { font-size: 24px; }
+.Students_section { padding-top: 0px; } 
+.classes_section { padding-left: 0px;}
+.image_2 { margin-top: 60px; height: 190px; }
+.box { padding: 40px 0px; font-size: 16px; }
+.readmore_bt { width: 150px; }
+.ballet_text { font-size: 30px; } 
+.shortcode_left {width: 70%; margin-top: 57px; }
+.border_left_0 { margin-top: 82px; }
+.shortcode_right {width: 30%; margin-top: 28px;  }
+.heading_text { font-size: 30px; }
+.tempor_text { font-size: 14px; margin: 0px 0px 20px 0px; }
+.heading_text_1 { font-size: 30px; }
+.tempor_text_1 { font-size: 14px; margin: 0px 0px 20px 0px; }
+.mail_section { width: 100%; padding-left: 0px;}
+.time_line { flex-direction: column; align-items: center; }
+.hiphop_text { width: 100%; font-size: 24px; text-align: center; margin: 20px 0px 0px 0px; }
+.border_0 { width: 100%; margin: 10px 0px; }
+.hiphop_text_1 { width: 100%; font-size: 16px; }
+.adderss_text { padding-top: 30PX; }
+.footer_section { padding-top: 50px; }
+.map_icon { font-size: 15px; }
+.navbar { padding: 20px 20px; }
+.banner_section::after {
+    transform: none; 
+}
+
 
 
 }
@@ -290,39 +296,44 @@ padding: 126px 40px;
     width: 55%;
 }
 
-.login_text { display: none; }
-.best_taital { font-size: 40px; }
-.box_main { width: 100%; }
-.there_text { width: 100%; font-size: 14px; }
-.bt_main { width: 40%; }
-.job_section { width: 100%; float: left; } 
-.jobs_text { font-size: 33px; }
-.dummy_text { font-size: 14px; }
-.apply_bt { margin-top: 0px; width: 35%; }
-.job_section_2 { width: 100%; float: left;}
-.lorem_text { font-size: 14px; }
-.email_bt_2 { font-size: 14px; padding-right: 215px; }
-.subscribe_bt_2 { width: 38%; font-size: 14px; }
-.copyright_text { text-align: center; font-size: 14px; }
-.cookies_text { text-align: center; font-size: 14px; margin-top: 0px; }
-.main { width: 100%;}
-.companies_text { width: 90%; }
-.column div { margin: 0px; }
-.find_bt { width: 30%; }
-
-.column { margin:0px;}
-.join_text { margin-bottom: 40px; }
-.main { width: 100%;}
-
-
+#my_slider a.carousel-control-prev { display: none; }
+#my_slider a.carousel-control-next { display: none; }
+.banner_taital {padding-left: 1px;}
+.dance_text { font-size: 40px; }
+.about_bt { width: 135px;}
+.contact_bt { width: 135px;}
+.ram { display: none; }
+.welcome_text { font-size: 24px; }
+.Students_section { padding-top: 120px; } 
+.classes_section { padding-left: 0px;}
+.image_2 { margin-top: 60px; height: 190px; }
+.box { padding: 40px 0px; font-size: 16px; }
+.readmore_bt { width: 150px; }
+.ballet_text { font-size: 30px; } 
+.shortcode_left { width: 100%; }
+.shortcode_right { width: 100%; text-align: center; } 
+.mail_section { width: 100%; padding-left: 0px;}
+.time_line { flex-direction: column; align-items: center; }
+.hiphop_text { width: 100%; font-size: 24px; text-align: center; margin: 20px 0px 0px 0px; }
+.border_0 { width: 100%; margin: 10px 0px; }
+.hiphop_text_1 { width: 100%; font-size: 16px; }
+.adderss_text { padding-top: 30PX; }
+.footer_section { padding-top: 50px; }
+.map_icon { font-size: 15px; }
+.navbar { padding: 20px 20px; }
+.banner_section::after {
+    transform: none; 
 }
+
+
+
+} 
 
 
 @media (max-width: 575px) {
     .last { display: none; }
     .carousel-caption {display: none;} 
 .header { padding-top: 0px; }
-.logo { float: inherit; padding-bottom: 15px; text-align: center;}
 .btn-primary {max-width: 126px;
 margin-right: 2px;
 font-size: 14px;}
@@ -400,32 +411,31 @@ ul.link li {
     padding-bottom: 0px; 
 }
 
+.banner_section::after {
+    transform: none; 
+}
 
-
-.login_text { display: none; }
-.best_taital { font-size: 24px; }
-.box_main { width: 100%; }
-.there_text { width: 100%; font-size: 14px; }
-.bt_main { width: 52%; }
-.job_section { width: 100%; float: left; } 
-.jobs_text { font-size: 33px; }
-.dummy_text { font-size: 14px; }
-.apply_bt { margin-top: 0px; }
-.job_section_2 { width: 100%; float: left;}
-.lorem_text { font-size: 14px; }
-.email_bt_2 { font-size: 14px; padding-right: 140px; }
-.subscribe_bt_2 { width: 45%; font-size: 14px; }
-.copyright_text { text-align: center; font-size: 14px; }
-.cookies_text { text-align: center; font-size: 14px; margin-top: 0px; }
-.find_bt { width: 50%; }
-.companies_text { width: 100%; font-size: 29px; }
-.column div { margin:0px; width: 272px;}
-.column {  margin: 15px 0px 15px 9px; }
-.join_text { margin-bottom: 40px; }
-.image_1 { padding-top: 20px; }
-
-.services_section { background-size: cover;}
-figure { padding-top: 20px; width: 100%;}
-
+#my_slider a.carousel-control-prev { display: none; }
+#my_slider a.carousel-control-next { display: none; }
+.banner_taital {padding-left: 1px;}
+.dance_text { font-size: 40px; }
+.about_bt { width: 135px;}
+.contact_bt { width: 135px;}
+.ram { display: none; }
+.welcome_text { font-size: 24px; }
+.Students_section { padding-top: 120px; } 
+.classes_section { padding-left: 0px;}
+.image_2 { margin-top: 30px; }
+.ballet_text { font-size: 30px; } 
+.shortcode_left { width: 100%; }
+.shortcode_right { width: 100%; text-align: center; } 
+.mail_section { width: 100%; padding-left: 0px;}
+.time_line { flex-direction: column; align-items: center; }
+.hiphop_text { width: 100%; font-size: 24px; text-align: center; margin: 20px 0px 0px 0px; }
+.border_0 { width: 100%; margin: 10px 0px; }
+.hiphop_text_1 { width: 100%; font-size: 19px; }
+.adderss_text { padding-top: 30PX; }
+.footer_section { padding-top: 50px; }
+.navbar { padding: 20px 20px; }
 
 }
